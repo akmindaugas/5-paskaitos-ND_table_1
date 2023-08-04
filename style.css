@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins&display=swap" rel="stylesheet');
+
+*
+table{
+width: 100%;
+margin: 4% auto;
+border: 5px solid #fec007;
+border-collapse: collapse;
+font-family: Poppins;
+font-style: bold;
+}
+
+td, th{
+border: 5px solid  #fec007;;
+padding: 30px;
+}
+
+th{
+background: #fec007;
+text-align: center;
+}
+
+td{
+text-align: left;
+color: white; 
+background: #382c6e;
+}
+
+th:nth-of-type(even){
+  background-color: #e5ae30;
+}
